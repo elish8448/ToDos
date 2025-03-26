@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3GpH/KrEsA=",
+  "dgSpecHash": "oRGl5xwHeCM=",
   "success": true,
-  "projectFilePath": "D:\\אחסון קבצי המשתמש שלי\\Desktop\\לימודים\\פרקטיקוד\\project\\pr3\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "D:\\אחסון קבצי המשתמש שלי\\Desktop\\לימודים\\פרקטיקוד\\project\\project4\\ToDos\\server\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elishva fogel\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\elishva fogel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -53,12 +53,5 @@
     "C:\\Users\\elishva fogel\\.nuget\\packages\\system.text.json\\9.0.2\\system.text.json.9.0.2.nupkg.sha512",
     "C:\\Users\\elishva fogel\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }
