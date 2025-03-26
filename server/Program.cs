@@ -46,11 +46,11 @@ if (builder.Environment.IsDevelopment())
     });
 }
 
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 
 app.UseCors("AllowAll");
 // if (app.Environment.IsDevelopment())
