@@ -65,7 +65,7 @@ app.UseCors("AllowAll");
 // });
 app.MapGet("/", async (ToDoDbContext db) =>
 {
-    return await db.Items.ToListAsync();
+    return "smiles";
 });
 app.MapGet("/tasks", async (ToDoDbContext db) =>
 {
