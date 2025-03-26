@@ -5,9 +5,9 @@ const PORT = process.env.PORT || 3000;
 
 const API_KEY = 'rnd_UQ0a4Q8U3XLHFvHR805C5KOQe5ja';
 
-app.get('/services', async (req, res) => {
+app.get('/tasks', async (req, res) => {
     try {
-        const response = await axios.get('https://api.render.com/v1/services', {
+        const response = await axios.get('https://api.render.com/v1/tasks', {
             headers: {
                 'Authorization': `Bearer ${API_KEY}`,
                 'Content-Type': 'application/json'
