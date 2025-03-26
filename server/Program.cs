@@ -59,9 +59,13 @@ app.UseCors("AllowAll");
 //     app.UseSwaggerUI();
 // }
 
-app.MapGet("/", async () =>
+// app.MapGet("/", async () =>
+// {
+//     return "Results.Accepted()";
+// });
+app.MapGet("/", async (ToDoDbContext db) =>
 {
-    return "Results.Accepted()";
+    return await db.Items.ToListAsync();
 });
 app.MapGet("/tasks", async (ToDoDbContext db) =>
 {
